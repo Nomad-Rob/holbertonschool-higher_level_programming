@@ -1,3 +1,2 @@
 #!/usr/bin/python3
-import sys
-print()
+import this;print()
