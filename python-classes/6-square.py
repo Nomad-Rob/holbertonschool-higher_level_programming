@@ -11,6 +11,4 @@ class Square:
             size (int): size of the square.
             position (tuple): position of the square.
         """
-        self.size = size
-        self.position = position
-    
+# Will need to come back and start on 6-square.py later Not sure how to do this one yet.
