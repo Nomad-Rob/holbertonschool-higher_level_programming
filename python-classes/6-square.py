@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # Write a class Square that defines a square by: (based on 5-square.py)
-
+"""Define a class Square."""
 
 class Square:
     """Square class."""
