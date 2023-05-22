@@ -1,19 +1,7 @@
 #!/usr/bin/python3
-# Write a class Rectangle that defines a rectangle by: (based on 1-rectangle.py)
-"""Define a class Rectangle
-Private instance attribute: width:
-    property def width(self): to retrieve it
-    property setter def width(self, value): to set it:
-Private instance attribute: height:
-    property def height(self): to retrieve it
-    property setter def height(self, value): to set it:
-Instantiation with optional width and height:
-    def __init__(self, width=0, height=0):
-Public instance method: def area(self): that returns the rectangle area
-Public instance method: def perimeter(self): that returns the rectangle perimeter:
-    if width or height is equal to 0, perimeter is equal to 0
+# Write a class Rectangle that defines a rectangle by:(based on 1-rectangle.py
+"""Defined in README.md"""
 
-"""
 
 class Rectangle:
     """Rectangle class."""

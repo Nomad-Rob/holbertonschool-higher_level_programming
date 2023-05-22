@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # Write an empty class Rectangle that defines a rectangle
-"""Define a class Rectangle"""
+"""Defined in README.md"""
+
 
 class Rectangle:
     """Rectangle class"""
