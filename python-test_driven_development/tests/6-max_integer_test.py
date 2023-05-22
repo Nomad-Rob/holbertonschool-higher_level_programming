@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""unit testing module for 6-max_integer_test.py
+"""unit testing module for max_integer
 """
 import unittest
 max_int = __import__('6-max_integer').max_integer

@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""3-say_my_name.py and tests/3-say_my_name.txt"""
 
 
 def say_my_name(first_name, last_name=""):

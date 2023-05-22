@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""4-print_square.py and tests/4-print_square.txt"""
 
 
 def print_square(size):
