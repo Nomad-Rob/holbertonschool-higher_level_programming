@@ -1,6 +1,12 @@
 #!/usr/bin/python3
 # Wrtie a class Rectangle that defines a rectangle by: (based on 0-rectangle.py)
-
+"""Defines a Rectangle class
+Private instance attributes: width and height
+property def width(self): to retrieve it
+property def height(self): to retrieve it
+property def width(self, value): to set it
+property def height(self, value): to set it
+"""
 
 class Rectangle:
     """Rectangle class with width and height"""
