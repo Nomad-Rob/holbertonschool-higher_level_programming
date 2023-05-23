@@ -1,3 +1,5 @@
+Having some errors on 0,1.2,5,6
+
 Requirements
 Python Scripts
 Allowed editors: vi, vim, emacs
