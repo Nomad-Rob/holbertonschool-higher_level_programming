@@ -1,4 +1,4 @@
-#!/bin/bash/python3
+#!/usr/bin/python3
 # Write a class MyList that inherits from list
 """This is a print_sorted method that prints the list
 but sorted (ascending sort)"""
