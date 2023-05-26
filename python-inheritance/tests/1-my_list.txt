@@ -1,12 +1,8 @@
 'Test for 1-my_list.py'
 
-'Function being tested: print_sorted'
+'Function being tested: print_sorted()'
 
->>> MyList = __import__('1-my_list').MyList
-```MyList``` will store a list. Contains 
-```print_sorted``` to print and sort the list.
-
-Import class ``MyList``:
+>>> MyList = __import__("1-my_list").MyList
 
 Basic MyList usage:
 
