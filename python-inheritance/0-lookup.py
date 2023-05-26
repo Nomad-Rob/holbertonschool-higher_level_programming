@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-# Write a function that returns the list of 
+# Write a function that returns the list of
 # available attributes and methods of an object
-"""This defines the lookup module, which is returning the list 
+"""This defines the lookup module, which is returning the list
 of available attributes and methods of an object"""
 
 
