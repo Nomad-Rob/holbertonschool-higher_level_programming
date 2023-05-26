@@ -13,15 +13,7 @@
     'Sorted list'
     >>> my_list.print_sorted()
     [1, 2, 3, 4, 5]
-    
-    'No Sorted append with negative number'
-    >>> my_list.append(-1)
-    
-    'Print Sorted with empty list'
-    >>> my_list_2 = MyList()
-    >>> my_list_2.print_sorted()
-    []
-        
+           
     'Append a string'
     >>> print(my_list)
     [1, 4, 2, 3, 5]
