@@ -1,3 +1,5 @@
+Issues with test file 1-my_list.txt on checker. need to correct
+
 Requirements
 Python Scripts
 Allowed editors: vi, vim, emacs
