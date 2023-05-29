@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" A function that writes a string to a text file (UTF8) and 
+""" A function that writes a string to a text file (UTF8) and
 returns the number of characters written
 Prototype: def write_file(filename="", text=""):
 You must use the with statement
@@ -15,4 +15,3 @@ def write_file(filename="", text=""):
     with open(filename, mode='a+', encoding='utf-8') as f:
         counter = f.write(text)
         return counter
-     
