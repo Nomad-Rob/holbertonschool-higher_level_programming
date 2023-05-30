@@ -20,6 +20,7 @@ Now, you have a simple implementation of a serialization and
 deserialization concept of representation of an object
 based on JSON format! Nice!"""
 
+
 class Student:
     """
     Student class
