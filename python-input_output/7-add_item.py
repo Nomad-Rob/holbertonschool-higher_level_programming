@@ -7,11 +7,18 @@ The list must be saved as a JSON representation in a file named add_item.json
 You don’t need to manage arguments passed to the script (see example below)"""
 
 
-import sys
-load_from_json_file = __import__('6-load_from_json_file').load_from_json_file
-save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
+save_json = __import__("5-save_to_json_file").save_to_json_file
+load_json = __import__("6-load_from_json_file").load_from_json_file
+
+filename = "add_item.json"
 
 try:
-    my_list = load_from_json_file("add_item.json")
-except:
-    my_list = []
+    json_list = load_json(filename)
+
+except(TypeError, FileNotFoundError):
+    json_list = []
+
+for i in sys.argv[1:]:
+    json_list.append(i)
+
+save_json(json_list, filename)
