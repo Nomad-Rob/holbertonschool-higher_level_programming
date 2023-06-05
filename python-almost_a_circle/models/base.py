@@ -9,6 +9,7 @@ import os
 class Base():
     """Base class to start with"""
 
+
     __nb_objects = 0
 
     def __init__(self, id=None):

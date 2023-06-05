@@ -8,6 +8,7 @@ from models.base import Base
 class Rectangle(Base):
     """Class of a rectangle object from Base"""
 
+
     def __init__(self, width, height, x=0, y=0, id=None):
         super().__init__(id)
         if type(width) is not int:
