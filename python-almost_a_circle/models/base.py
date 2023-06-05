@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-"""base.py
-This module contains a class 'Base'
-"""
+""" This module contains a class Base"""
+
 
 import json
 import csv
