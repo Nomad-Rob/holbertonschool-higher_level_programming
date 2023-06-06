@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 
-"""
-    Unittests for Base module
-"""
+"""Unittests for Base module"""
+
 
 import unittest
 import os
@@ -13,13 +12,15 @@ from models.square import Square
 
 
 class TestBase(unittest.TestCase):
-    """
-        test for Base
-    """
+    """test for Base class"""
+    
+    def test_id_as_positive(self):
+        test_instance = Base(24)
+        self.assertEqual(test_instance.id, 24)
+    
     def test_creation_id(self):
-        """
-            test if value of id has the good assignment
-        """
+        """test if value of id has the good assignment"""
+        
         b1 = Base()
         b2 = Base()
         b3 = Base()
