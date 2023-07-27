@@ -1,5 +1,5 @@
 #!/usr/bin/node
-// Task 3 - Write a script that prints the first 
+// Task 3 - Write a script that prints the first
 // argument passed to it:
 
 let i = 1;

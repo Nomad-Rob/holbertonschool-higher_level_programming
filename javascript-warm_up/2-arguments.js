@@ -1,5 +1,5 @@
 #!/usr/bin/node
-// Task 2 - Write a script that prints a message 
+// Task 2 - Write a script that prints a message
 // depending of the number of arguments passed:
 
 const argc = process.argv.length;
