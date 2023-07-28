@@ -2,21 +2,21 @@
 // Task 11 - Searches the second biggest
 // integer in the list of arguments
 
-if (process.argv.length <= 3) {
-    console.log(0);
-    process.exit();
-  }
-  
-  const arr = process.argv.slice(2);
-  let max = arr[0];
-  let second = arr[0];
-  
-  for (let i = 0; i < arr.length; i++) {
-    const curr = parseInt(arr[i]);
-    if (curr > max) {
-      second = max;
-      max = curr;
+const args = process.argv.slice(2).map(Number);
+
+if (args.length === 0 || args.length === 1) {
+  console.log(0);
+} else {
+  let max = -Infinity;
+  let secondMax = -Infinity;
+
+  for (let i = 0; i < args.length; i++) {
+    if (args[i] > max) {
+      secondMax = max;
+      max = args[i];
+    } else if (args[i] > secondMax && args[i] < max) {
+      secondMax = args[i];
     }
   }
-  
-  console.log(second);
+  console.log(secondMax);
+}
