@@ -3,11 +3,11 @@
 // create an empty object:
 
 module.exports = class Rectangle {
-    constructor (w = -1, h = -1) {
-      if (w <= 0 || h <= 0) {
-        return;
-      }
-      this.width = w;
-      this.height = h;
+  constructor (w = -1, h = -1) {
+    if (w <= 0 || h <= 0) {
+      return;
     }
-  };
+    this.width = w;
+    this.height = h;
+  }
+};
