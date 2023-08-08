@@ -1,5 +1,5 @@
 #!/usr/bin/node
-// fetch Hello, from the headtag
+// fetch Hello, from the headtag of the HTML
 
 const url = 'https://stefanbohacek.com/hellosalut/?lang=fr';
 
