@@ -1,7 +1,7 @@
 #!/usr/bin/node
 // fetch Hello, from the headtag of the HTML
 
-const url = 'https://stefanbohacek.com/hellosalut/?lang=fr';
+const url = 'https://hellosalut.stefanbohacek.dev/?lang=fr';
 
 window.onload = function () {
   $.getJSON(url, function (data, status) {
